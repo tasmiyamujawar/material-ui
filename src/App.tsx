@@ -4,6 +4,7 @@ import "./App.css";
 import Button from "@mui/material/Button";
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
+import Add from './component/Add';
 
 
 function App() {
@@ -26,7 +27,7 @@ function App() {
       <TextField id="standard-basic" label="Standard" variant="standard" />
     </Box>
 
-      
+      <Add/>
     </div>
   );
 }
